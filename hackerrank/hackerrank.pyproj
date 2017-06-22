@@ -60,11 +60,8 @@
     <Folder Include="Python\Strings\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="Python\Strings\classes.dot" />
     <Content Include="README.md" />
-    <Content Include="requirements.txt" />
-    <Content Include="runtime.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
