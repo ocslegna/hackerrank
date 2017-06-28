@@ -23,6 +23,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Python\Basic Data Types\nested_lists.py" />
+    <Compile Include="Python\Itertools\combinations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Itertools\combinations_with_replacements.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Itertools\compress.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Itertools\permutations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Itertools\product.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Sets\check_strict_superset.py" />
     <Compile Include="Python\Sets\check_subset.py" />
     <Compile Include="Python\Sets\difference.py" />
@@ -56,6 +71,7 @@
   <ItemGroup>
     <Folder Include="Python\" />
     <Folder Include="Python\Basic Data Types\" />
+    <Folder Include="Python\Itertools\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>
