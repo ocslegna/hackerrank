@@ -6,6 +6,7 @@ Execute N commands given in N lines.
 
 
 def execute(s, num_commands, commands):
+    """ Executes N commands """
     for i in range(num_commands):
         if len(commands[i]) == 1:
             s.pop()

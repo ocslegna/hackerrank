@@ -6,6 +6,7 @@ Calculate your happiness with disjoints sets A and B.
 
 
 def happiness(n, m, array, a, b):
+    """ Calculate happiness """
     result = 0
     for n in array:
         if n in a:

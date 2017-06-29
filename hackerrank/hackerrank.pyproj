@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Python\Basic Data Types\nested_lists.py" />
+    <Compile Include="Python\Collections\counter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\def_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Itertools\combinations.py">
       <SubType>Code</SubType>
     </Compile>
@@ -30,6 +36,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python\Itertools\compress.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Itertools\iterables_and_iterators.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python\Itertools\permutations.py">
@@ -72,6 +81,7 @@
     <Folder Include="Python\" />
     <Folder Include="Python\Basic Data Types\" />
     <Folder Include="Python\Itertools\" />
+    <Folder Include="Python\Collections\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>

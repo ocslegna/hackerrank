@@ -6,11 +6,12 @@ Given 2 int sets M and N, print their symmetric difference in asc order.
 
 
 def symmetric_difference(k, m, j, n):
+    """ print symmetric_difference """
     mdn = m.difference(n)
     ndm = n.difference(m)
     c = mdn.union(ndm)
-    for n in sorted(c):
-        print(n)
+    for elem in sorted(c):
+        print(elem)
 
 
 if __name__ == '__main__':

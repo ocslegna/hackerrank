@@ -5,12 +5,8 @@ Output the average height value on a single line.
 """
 
 
-def average(array):
-    return sum(set(array))/len(set(array))
-
-
 if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().split()))
-    result = average(arr)
-    print(result)
+    N = int(input())
+    ARR = list(map(int, input().split()))
+    RESULT = sum(set(ARR))/len(set(ARR))
+    print(RESULT)
