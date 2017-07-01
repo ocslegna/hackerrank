@@ -29,6 +29,12 @@
     <Compile Include="Python\Collections\def_dict.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python\Collections\namedtuple.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\ordered_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Itertools\combinations.py">
       <SubType>Code</SubType>
     </Compile>

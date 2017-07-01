@@ -4,6 +4,11 @@
 A counter is a container that stores elements as dictionary keys,
   and their counts are stored as dictionary values.
 
+E.G: If we got a list of tuples with same first value
+  and we want to sume those second ones,
+  we could create a Counter c, and then
+  add them into c.
+
 -The first line contains X, the number of shoes.
 -The second line contains the space separated list
  of all the shoe sizes in the shop.
