@@ -35,6 +35,12 @@
     <Compile Include="Python\Collections\ordered_dict.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python\Collections\word_order.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\word_order_better.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Itertools\combinations.py">
       <SubType>Code</SubType>
     </Compile>
