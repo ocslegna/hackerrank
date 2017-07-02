@@ -7,6 +7,9 @@ With namedtuples, you don’t have to use integer indices for accessing members 
 
 Named tuples are especially useful for assigning field
  names to result tuples returned by the csv or sqlite3 modules:
+
+DATA is a STUDENT list that takes as arguments those returned
+ by the * operator when applying a resulting list of splitting the input.
 """
 
 
@@ -14,10 +17,6 @@ from collections import namedtuple
 
 
 if __name__ == '__main__':
-    """
-    DATA is a STUDENT list that takes as arguments those returned
-     by the * operator when applying a resulting list of splitting the input.
-    """
     STUDENTS = int(input())
     STUDENT = namedtuple('STUDENT', input())
     DATA = [STUDENT(*input().split()) for i in range(STUDENTS)]

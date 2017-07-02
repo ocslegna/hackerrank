@@ -29,10 +29,22 @@
     <Compile Include="Python\Collections\def_dict.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python\Collections\deque.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\deque_better.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\most_common.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Collections\namedtuple.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python\Collections\ordered_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Collections\piling_up.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python\Collections\word_order.py">
