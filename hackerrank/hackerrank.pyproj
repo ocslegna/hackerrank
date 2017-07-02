@@ -53,6 +53,18 @@
     <Compile Include="Python\Collections\word_order_better.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python\Date_Time\calendar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Date_Time\time_delta.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Errors_Exceptions\exceptions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Errors_Exceptions\incorrect_regex.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Itertools\combinations.py">
       <SubType>Code</SubType>
     </Compile>
@@ -106,6 +118,8 @@
     <Folder Include="Python\Basic Data Types\" />
     <Folder Include="Python\Itertools\" />
     <Folder Include="Python\Collections\" />
+    <Folder Include="Python\Date_Time\" />
+    <Folder Include="Python\Errors_Exceptions\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>
