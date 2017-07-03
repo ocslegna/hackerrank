@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Python\Basic Data Types\nested_lists.py" />
+    <Compile Include="Python\Classes\complex_num.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Collections\counter.py">
       <SubType>Code</SubType>
     </Compile>
@@ -120,6 +123,7 @@
     <Folder Include="Python\Collections\" />
     <Folder Include="Python\Date_Time\" />
     <Folder Include="Python\Errors_Exceptions\" />
+    <Folder Include="Python\Classes\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>
