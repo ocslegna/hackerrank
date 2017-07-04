@@ -8,6 +8,7 @@ With namedtuples, you don’t have to use integer indices for accessing members 
 Named tuples are especially useful for assigning field
  names to result tuples returned by the csv or sqlite3 modules:
 
+__
 DATA is a STUDENT list that takes as arguments those returned
  by the * operator when applying a resulting list of splitting the input.
 """

@@ -23,6 +23,39 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Python\Basic Data Types\nested_lists.py" />
+    <Compile Include="Python\Built_ins\any_or_all.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\any_or_all_better.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\eval.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\ginortS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\ginortS_super_better.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\input.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\sort_data.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\sort_data_better.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\sort_data_better2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\zipped.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Built_ins\zipped_better.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Classes\complex_num.py">
       <SubType>Code</SubType>
     </Compile>
@@ -124,6 +157,7 @@
     <Folder Include="Python\Date_Time\" />
     <Folder Include="Python\Errors_Exceptions\" />
     <Folder Include="Python\Classes\" />
+    <Folder Include="Python\Built_ins\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>
