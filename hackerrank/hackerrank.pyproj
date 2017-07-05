@@ -119,6 +119,12 @@
     <Compile Include="Python\Itertools\product.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python\Python_Functionals\email_validator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python\Python_Functionals\map_and_lambda.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python\Sets\check_strict_superset.py" />
     <Compile Include="Python\Sets\check_subset.py" />
     <Compile Include="Python\Sets\difference.py" />
@@ -158,6 +164,7 @@
     <Folder Include="Python\Errors_Exceptions\" />
     <Folder Include="Python\Classes\" />
     <Folder Include="Python\Built_ins\" />
+    <Folder Include="Python\Python_Functionals\" />
     <Folder Include="Python\Sets\" />
     <Folder Include="Python\Strings\" />
   </ItemGroup>
