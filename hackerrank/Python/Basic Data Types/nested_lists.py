@@ -1,17 +1,18 @@
 #!/usr/bin/python3
 
+""" Nested lists. """
 
 if __name__ == '__main__':
-    l = []
+    L = []
     for _ in range(int(input())):
         name = input()
         score = float(input())
-        l.append([name, score])
+        L.append([name, score])
 
-    scores = [student[1] for student in l]
-    minscore = min(scores)
-    secminscore = min(score for score in scores if score != minscore)
+    SCORES = [student[1] for student in L]
+    MINSCORE = min(SCORES)
+    SECMINSCORE = min(score for score in SCORES if score != MINSCORE)
 
-    results = sorted([student[0] for student in l if student[1] == secminscore], key=lambda results: results[0])
-    for student in results:
+    RESULTS = sorted([student[0] for student in L if student[1] == SECMINSCORE], key=lambda results: RESULTS[0])
+    for student in RESULTS:
         print(student)

@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 """
@@ -47,6 +46,6 @@ if __name__ == '__main__':
     N, X = map(int, input().split())
     NOTES = [list(map(Decimal, input().split())) for _ in range(X)]
     ZPP = zip(*NOTES)
-    for tuple in ZPP:
-        AVERAGE = sum(map(float, tuple)) / len(tuple)
+    for tup in ZPP:
+        AVERAGE = sum(map(float, tup)) / len(tup)
         print("%.1f" % AVERAGE)
